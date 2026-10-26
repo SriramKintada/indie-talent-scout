@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IndieTalentProspectList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "creator_name",
+      "creator_handle_or_id",
+      "role_archetype",
+      "city_region",
+      "primary_style_vibe",
+      "primary_portfolio_or_stream_url",
+      "follower_or_scale_estimate",
+      "signature_works",
+      "contact_channel",
+      "contact_address_or_link",
+      "independence_status",
+      "why_they_fit_brief",
+      "score_aesthetic_fit",
+      "score_authenticity",
+      "score_collab_realism",
+      "score_reachability",
+      "score_marketing_multiplier",
+      "score_total",
+      "outreach_priority",
+      "tailored_outreach_hook"
+    ],
+    "properties": {
+      "creator_name": { "type": "string" },
+      "creator_handle_or_id": { "type": "string" },
+      "role_archetype": {
+        "type": "string",
+        "enum": [
+          "Indie Singer-Songwriter",
+          "Music Producer / Beatmaker",
+          "Sound Designer / Audio UX",
+          "Brand & Identity Designer",
+          "UI/UX & Product Craftsman",
+          "Visual Illustrator / Editorial Artist",
+          "Motion & 3D Artist",
+          "Indic Type & Lettering Artist"
+        ]
+      },
+      "city_region": { "type": "string" },
+      "primary_style_vibe": { "type": "string" },
+      "primary_portfolio_or_stream_url": { "type": "string" },
+      "follower_or_scale_estimate": { "type": "string" },
+      "signature_works": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "contact_channel": {
+        "type": "string",
+        "enum": ["Instagram DM", "Direct Email", "Linktree / WhatsApp", "Behance Message", "Other"]
+      },
+      "contact_address_or_link": { "type": "string" },
+      "independence_status": {
+        "type": "string",
+        "enum": ["Independent / Self-managed", "Likely Independent", "Partially Managed", "Agency / Label Locked"]
+      },
+      "why_they_fit_brief": { "type": "string" },
+      "score_aesthetic_fit": { "type": "integer", "minimum": 0, "maximum": 10 },
+      "score_authenticity": { "type": "integer", "minimum": 0, "maximum": 10 },
+      "score_collab_realism": { "type": "integer", "minimum": 0, "maximum": 10 },
+      "score_reachability": { "type": "integer", "minimum": 0, "maximum": 10 },
+      "score_marketing_multiplier": { "type": "integer", "minimum": 0, "maximum": 10 },
+      "score_total": { "type": "integer", "minimum": 0, "maximum": 50 },
+      "outreach_priority": {
+        "type": "string",
+        "enum": ["High", "Medium", "Low"]
+      },
+      "tailored_outreach_hook": { "type": "string" }
+    },
+    "additionalProperties": false
+  }
+}
