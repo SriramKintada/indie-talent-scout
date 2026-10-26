@@ -1,26 +1,33 @@
-# indie-talent-scout (Codename: Undercurrent)
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Powered by Exa AI](https://img.shields.io/badge/Powered%20by-Exa%20AI-purple.svg)](https://exa.ai)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/SriramKintada/indie-talent-scout/pulls)
+<img src="./assets/repo_terminal_banner.svg" width="100%" alt="Indie Talent Scout Terminal Banner" />
 
-**Autonomous creative talent and subculture scouting engine for India.**
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT" /></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.9+" /></a>
+  <a href="https://exa.ai"><img src="https://img.shields.io/badge/Powered%20By-Exa%20AI-6366F1?style=for-the-badge" alt="Powered by Exa AI" /></a>
+  <a href="https://github.com/SriramKintada/indie-talent-scout/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-10B981?style=for-the-badge" alt="PRs Welcome" /></a>
+</p>
 
-Discover underground Indian indie singers, bedroom producers, sound designers, brand identity craftsmen, and visual illustrators using **Exa AI Neural Search**. Built for startup founders, early-stage operators, and creative directors looking to assemble exceptional creative teams without bloated agency fees or algorithmic vanity metrics.
+</div>
 
+---
+
+### Terminal Session
+
+```bash
+sriram@quantum-node:~$ indie-talent-scout --status
 ```
-       ___          ___         _____          ___     
-      /  /\        /__/\       /  /::\        /  /\    
-     /  /:/        \  \:\     /  /:/\:\      /  /:/_   
-    /__/::\         \  \:\   /  /:/  \:\    /  /:/ /\  
-    \__\/\:\    ___  \  \:\ /__/:/ \__\:|  /  /:/ /:/_ 
-       \  \:\  /__/\  \__\:\\  \:\ /  /:/ /__/:/ /:/ /\
-        \__\/  \  \:\ /  /:/ \  \:\  /:/  \  \:\/:/ /:/
-                \  \:\  /:/   \  \:\/:/    \  \::/ /:/ 
-                 \  \:\/:/     \  \::/      \  \:\/:/  
-                  \  \::/       \__\/        \  \::/   
-                   \__\/                      \__\/    
+
+```text
+       ___          ___         SYSTEM: Autonomous Creative Talent & Subculture Radar
+      /  /\        /__/\        ENGINE: Exa AI Neural Sentence Autocompletion
+     /  /:/        \  \:\       GEOGRAPHY: India (Delhi, BLR, Kerala, Northeast, Mumbai)
+    /__/::\         \  \:\      ARCHETYPES: Singers, Lofi Producers, Illustrators, UI Craftsmen
+    \__\/\:\    ___  \  \:\     DOMAINS: Bandcamp, SoundCloud, Behance, Bento, Neocities
+       \  \:\  /__/\  \__\:\    RUBRIC: 5-Vector Scoring (Taste, Authenticity, Collab, Reach, Lift)
+        \__\/  \  \:\ /  /:/    TARGET: Startup Founders, Early Operators, Creative Leads
+                \  \:\  /:/     STATUS: Ready for Deployment
 ```
 
 ---
@@ -30,7 +37,7 @@ Discover underground Indian indie singers, bedroom producers, sound designers, b
 Finding high-taste, lowkey creative talent in India today is broken:
 
 1. **Algorithmic Vanity:** Instagram and Spotify algorithms favor high-frequency content farms and commercial reels over raw artistic craft.
-2. **Agency Overhead:** Traditional agencies charge ₹5L to ₹15L for creative work, taking massive cuts while paying the actual young artists pennies.
+2. **Agency Overhead:** Traditional agencies charge ₹5L to ₹15L for creative work, taking massive cuts while paying young artists pennies.
 3. **LinkedIn Silence:** Truly gifted bedroom musicians, Indic type designers, and dark-surrealist illustrators do not post corporate updates on LinkedIn. They live on Bandcamp, Behance, Neocities, Bento, and underground zines.
 4. **Western Tool Blindness:** Existing A&R and talent scrapers are trained on Western electronic clubs (UK bass, Berlin techno) and completely miss the nuances of Indian creative subcultures.
 
